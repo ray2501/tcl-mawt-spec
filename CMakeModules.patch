@@ -1,0 +1,15 @@
+--- CMakeModules/Macros.cmake.orig	2018-07-10 17:27:37.191435349 +0800
++++ CMakeModules/Macros.cmake	2018-07-10 17:27:54.587455549 +0800
+@@ -39,6 +39,12 @@
+             FILES_MATCHING PATTERN ${PATTERN}
+         )
+ 
++        INSTALL(
++            FILES ${CMAKE_CURRENT_BINARY_DIR}/pkgIndex.Release.tcl
++            DESTINATION ${MAWT_INST_DIR}
++            RENAME pkgIndex.tcl
++        )
++
+         # Install the configuration specific Tcl package index file.
+         INSTALL(
+             FILES ${CMAKE_CURRENT_BINARY_DIR}/pkgIndex.Debug.tcl

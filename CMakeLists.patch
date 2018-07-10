@@ -1,0 +1,10 @@
+--- CMakeLists.txt.orig	2018-07-10 17:07:13.726088606 +0800
++++ CMakeLists.txt	2018-07-10 17:07:43.038118228 +0800
+@@ -83,6 +83,7 @@
+ )
+ 
+ SET( MAWT_INST_DIR lib/mawt${MAWT_VERSION} )
++SET( MAWT_INST_DIR /usr/lib64/tcl/mawt${MAWT_VERSION} )
+ 
+ # Set option "CMAKE_INSTALL_PREFIX", if option was not explicitly set by user.
+ IF( CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT )
