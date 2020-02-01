@@ -20,7 +20,7 @@ Requires:       tk >= 8.6
 Requires:       ffmpeg
 License:        BSD 3-Clause
 Group:          Development/Libraries/Tcl
-Version:        0.3.0
+Version:        0.4.0
 Release:        0
 Summary:        Movie Automation With Tcl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build

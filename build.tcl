@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "mawt-0.3.0"
-set fileurl "http://www.mawt.tcl3d.org/download/mawt-0.3.0.zip"
+set base "mawt-0.4.0"
+set fileurl "http://www.mawt.tcl3d.org/download/mawt-0.4.0.zip"
 
 set var [list wget $fileurl -O $base.zip]
 exec >@stdout 2>@stderr {*}$var
