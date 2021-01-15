@@ -18,7 +18,7 @@ BuildRequires:  libswscale-devel
 Requires:       tcl >= 8.6
 Requires:       tk >= 8.6
 Requires:       ffmpeg
-License:        BSD 3-Clause
+License:        BSD-3-Clause
 Group:          Development/Libraries/Tcl
 Version:        0.4.0
 Release:        0
